@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "esnext",
+    "target": "ES2016",
     "module": "esnext",
     "strict": true,
     "jsx": "preserve",
@@ -13,7 +13,11 @@
     "sourceMap": true,
     "baseUrl": ".",
     "types": [
-      "webpack-env"
+      "webpack-env",
+      "node"
+    ],
+    "typeRoots": [
+      "node_modules/@types"
     ],
     "paths": {
       "@/*": [
